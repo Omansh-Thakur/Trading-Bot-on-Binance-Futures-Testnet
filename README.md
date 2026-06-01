@@ -9,9 +9,27 @@ This is a Python command-line application that allows you to place MARKET and LI
 - **Logging**: All API interactions and errors are safely logged to `trading_bot.log`.
 - **Validation**: Strict input validation to prevent user errors before sending API requests.
 
+## Architecture
+
+The project is structured with a clear separation of concerns to maximize modularity and maintainability:
+
+```text
+trading_bot/
+├── bot/
+│   ├── __init__.py
+│   ├── client.py        # Wrapper for python-binance Testnet initialization
+│   ├── orders.py        # Core logic for executing MARKET and LIMIT orders
+│   ├── validators.py    # Robust validation handlers for CLI inputs
+│   └── logging_config.py# File-based logging configuration
+├── cli.py               # Main Click entry point (Interactive & Headless modes)
+├── requirements.txt     # Python dependencies
+└── .env.example         # Template for required environment variables
+```
+
 ## Prerequisites
 - Python 3.8+
 - Binance Futures Testnet Account
+- Generated Testnet API Key and Secret Key
 
 ## Setup Steps
 
@@ -54,4 +72,4 @@ Logs are automatically written to `trading_bot.log` in the root directory. This 
 
 ## Author
 
-Omansh Thakur  
+**Omansh Thakur**  
