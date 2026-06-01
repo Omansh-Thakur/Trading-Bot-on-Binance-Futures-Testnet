@@ -1,0 +1,19 @@
+2026-06-01 11:50:42,763 - trading_bot - INFO - Initializing Binance Futures Testnet Client.
+2026-06-01 11:50:44,177 - trading_bot - INFO - Preparing to place MARKET BUY order for 0.01 BTCUSDT
+2026-06-01 11:50:44,177 - trading_bot - INFO - Sending MARKET order to Binance API.
+2026-06-01 11:50:45,565 - trading_bot - INFO - Order placed successfully. Order ID: 13667962553
+2026-06-01 11:51:41,540 - trading_bot - INFO - Initializing Binance Futures Testnet Client.
+2026-06-01 11:51:42,454 - trading_bot - INFO - Preparing to place MARKET BUY order for 0.01 BTCUSDT
+2026-06-01 11:51:42,455 - trading_bot - INFO - Sending MARKET order to Binance API.
+2026-06-01 11:51:42,999 - trading_bot - ERROR - Binance API Exception occurred: Timestamp for this request was 1000ms ahead of the server's time. (Code: 400)
+2026-06-01 11:51:43,002 - trading_bot - ERROR - Failed to place order from CLI: APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+2026-06-01 11:52:21,800 - trading_bot - INFO - Initializing Binance Futures Testnet Client.
+2026-06-01 11:52:23,070 - trading_bot - INFO - Time synced with Binance server. Offset: -1853ms
+2026-06-01 11:52:23,087 - trading_bot - INFO - Preparing to place MARKET BUY order for 0.01 BTCUSDT
+2026-06-01 11:52:23,087 - trading_bot - INFO - Sending MARKET order to Binance API.
+2026-06-01 11:52:23,300 - trading_bot - INFO - Order placed successfully. Order ID: 13668072117
+2026-06-01 11:52:40,267 - trading_bot - INFO - Initializing Binance Futures Testnet Client.
+2026-06-01 11:52:41,925 - trading_bot - INFO - Time synced with Binance server. Offset: -1938ms
+2026-06-01 11:52:41,937 - trading_bot - INFO - Preparing to place LIMIT SELL order for 0.05 ETHUSDT
+2026-06-01 11:52:41,937 - trading_bot - INFO - Sending LIMIT order to Binance API at price 4000.0.
+2026-06-01 11:52:42,170 - trading_bot - INFO - Order placed successfully. Order ID: 8919776364
